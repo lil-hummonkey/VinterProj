@@ -79,6 +79,8 @@ arm.X = player.hitbox.X + 5;
         {
         s.boundBox.Y = 700 - s.boundBox.Height;
         }
+
+        
        
     }
 
