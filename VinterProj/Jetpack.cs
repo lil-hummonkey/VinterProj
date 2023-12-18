@@ -1,37 +1,34 @@
 public class Jetpack : Body
 {
-
     float fly;
-
+    Body body;
     public Jetpack()
     {
         width = 7;
         height = 18;
         boundBox = new Rectangle(500, 680, width, height);
-        
     }
     public override void IsOn(Player player)
     {
         boundBox = new Rectangle(player.hitbox.X - 5, player.hitbox.Y, width, height);
-        // boundBox.Y += player.gravity;
     }
-
-
     public override float Rise(Player player)
     {
-
-        if (Raylib.IsKeyDown(KeyboardKey.KEY_SPACE))
+        if (Raylib.IsKeyPressed(KeyboardKey.KEY_SPACE) && player.isStanding == true)
         {
-            fly = -2.5f;
+            fly = -5;
+        }
+        else if (Raylib.IsKeyDown(KeyboardKey.KEY_SPACE) && player.isStanding != true)
+        {
+            fly = -1f;
         }
         else
         {
-            fly = 1;
+            fly = 0.5f;
 
         }
         return fly;
     }
-
     public override void Draw()
     {
 

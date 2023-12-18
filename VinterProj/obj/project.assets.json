@@ -130,11 +130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hector.mcewen\\Desktop\\Prog 2\\VinterProj\\VinterProj\\VinterProj.csproj",
+      "projectUniqueName": "C:\\Users\\hector.mcewen\\Desktop\\Prog 2\\VinterProj - kopia (2)\\VinterProj\\VinterProj.csproj",
       "projectName": "VinterProj",
-      "projectPath": "C:\\Users\\hector.mcewen\\Desktop\\Prog 2\\VinterProj\\VinterProj\\VinterProj.csproj",
+      "projectPath": "C:\\Users\\hector.mcewen\\Desktop\\Prog 2\\VinterProj - kopia (2)\\VinterProj\\VinterProj.csproj",
       "packagesPath": "C:\\Users\\hector.mcewen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hector.mcewen\\Desktop\\Prog 2\\VinterProj\\VinterProj\\obj\\",
+      "outputPath": "C:\\Users\\hector.mcewen\\Desktop\\Prog 2\\VinterProj - kopia (2)\\VinterProj\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
